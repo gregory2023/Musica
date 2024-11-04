@@ -8,14 +8,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!--  menu de navegacion  -->
+<nav class="navbar navbar-expand-sm bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">MUSICAPP</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">NOVEDADES</a>
           </li>
@@ -33,28 +34,29 @@
     </div>
   </nav>
 
-<!--  primera tabla -->
+<!--  carrusel -->
 
-  <div class="container text-center">
-    <div class="row align-items-start">
-      <img src="imagenes/imagen1.jpg" alt="Imagen relacionada con música" class="img-fluid">
-      <div 
-  
-      class="col-12 col-md-6 col-md-4 col-xxl-3 bg-primary">Tu destino definitivo para descubrir, compartir y disfrutar la música que amas. Desde los éxitos más recientes hasta gemas ocultas, aquí encontrarás playlists personalizadas, noticias de la industria, entrevistas exclusivas y recomendaciones de expertos. Ya seas fanático de lo clásico, amante de los nuevos géneros o simplemente busques inspiración para tu próxima sesión musical,
-
-      </div>
-      <div class="col-12 col-md-6 col-md-4 col-xxl-3 bg-succes" > Tu destino definitivo para descubrir, compartir y disfrutar la música que amas. Desde los éxitos más recientes hasta gemas ocultas, aquí encontrarás playlists personalizadas, noticias de la industria, entrevistas exclusivas y recomendaciones de expertos. Ya seas fanático de lo clásico, amante de los nuevos géneros o simplemente busques inspiración para tu próxima sesión musical,
-
-      </div>
-      <div class="col-12 col-md-6  col-md-4 col-xxl-3 bg-danger" >Tu destino definitivo para descubrir, compartir y disfrutar la música que amas. Desde los éxitos más recientes hasta gemas ocultas, aquí encontrarás playlists personalizadas, noticias de la industria, entrevistas exclusivas y recomendaciones de expertos. Ya seas fanático de lo clásico, amante de los nuevos géneros o simplemente busques inspiración para tu próxima sesión musical,
-
-      </div>
-      <div class="col-12 col-md-6  col-md-4 col-xxl-3 bg-warning" >Tu destino definitivo para descubrir, compartir y disfrutar la música que amas. Desde los éxitos más recientes hasta gemas ocultas, aquí encontrarás playlists personalizadas, noticias de la industria, entrevistas exclusivas y recomendaciones de expertos. Ya seas fanático de lo clásico, amante de los nuevos géneros o simplemente busques inspiración para tu próxima sesión musical,
-
-      </div>
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/carrusel1.jpg" class="d-block w-100" alt="imagenes">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carrusel2.jpg" class="d-block w-100" alt="imagenes">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carrusel3.jpg" class="d-block w-100" alt="imagenes">
     </div>
   </div>
-
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 
   <footer >
