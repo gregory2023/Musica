@@ -28,41 +28,38 @@
     </header>
 </div>
         
-        <div class="container d-flex justify-content-center mt-5">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 justify-content-center">
-            
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="../img/IMG_0600.jpg" width="305px">
-                <div class="card-body">
-                  <p class="card-text">Mario Rodriguez</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Linkedin</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">GitHub</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col">
-              <div class="card shadow-sm">
-                  <img src="../img/grego.jpeg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Gregory Cañon</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Linkedin</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        
+<div class="container d-flex justify-content-center mt-5">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 justify-content-center">
+    <!-- Tarjeta 1 -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="../img/IMG_0600.jpg" class="card-img-top img-fluid" alt="Mario Rodriguez">
+        <div class="card-body text-center">
+          <p class="card-text">Mario Rodriguez</p>
+          <div class="d-flex justify-content-center">
+            <a href="https://linkedin.com" class="btn btn-sm btn-outline-secondary mx-1">Linkedin</a>
+            <a href="https://github.com" class="btn btn-sm btn-outline-secondary mx-1">GitHub</a>
           </div>
         </div>
+      </div>
+    </div>
+    
+    <!-- Tarjeta 2 -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="../img/grego.jpeg" class="card-img-top img-fluid" alt="Gregory Cañon">
+        <div class="card-body text-center">
+          <p class="card-text">Gregory Cañon</p>
+          <div class="d-flex justify-content-center">
+            <a href="https://linkedin.com" class="btn btn-sm btn-outline-secondary mx-1">Linkedin</a>
+            <a href="https://github.com" class="btn btn-sm btn-outline-secondary mx-1">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
       
       <footer class="py-3 my-4">
@@ -89,12 +86,22 @@
                 </div>
                 
                 <div class="d-grid">
-                  <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                  <button type="button" class="btn btn-primary" onclick="window.location.href='https://www.lego.com/es-es?ef_id=Cj0KCQiA_9u5BhCUARIsABbMSPvglh52nW64sjH187JRK3L9Fh5zBSROEldsiL6TVSbrVLFq8ABZP00aAhe6EALw_wcB%3AG%3As&s_kwcid=AL%21933%213%21674168521163%21e%21%21g%21%21lego%2120549960855%21153336944613&cmp=KAC-INI-GOOGEU-GO-ES_GL-ES-RE-PS-BUY-CREATE-MB_ALWAYS_ON-SHOP-BC-MM-RN-CIDNA00000-MB-CORE&gad_source=1';">
+                    Enviar mensaje
+                  </button>
+                  
                 </div>
               </form>
             </div>
           </div>
         </div>
+
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">&copy; Pagina Web Construida por Mario Rodriguez y Gregory Cañon</span>
+          </div>
       </footer>
        
 </body>
